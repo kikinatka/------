@@ -14,13 +14,18 @@
     <header>
       <div class="container">
         <div class="header">
-          <div class="header__logo">БК “Ясенево”</div>
+          <a href="index.html" class="header__logo">БК “Ясенево”</a>
           <nav>
             <ul class="nav">
-              <li class="nav__item"><a href="/">Главная</a></li>
+              <li class="nav__item"><a href="index.html">Главная</a></li>
               <li class="nav__item"><a href="location.html">Расположение</a></li>
               <li class="nav__item"><a href="plans.html">Планировки</a></li>
-              <li class="nav__item nav__item_button"><a href="tel:+74952214022">+7 (495) 221-40-22</a></li>
+              <li class="nav__item nav__item_button">
+                <a href="tel:+74952214022">
+                  <span>+7 (495) 221-40-22</span>
+                  <img class="nav__item__image" src="assets/images/phone.png" alt="">
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -30,8 +35,7 @@
       <div class="container">
         <section class="hero">
           <h1 class="hero__title">Офисы класса “А” в бизнес-квартале “Ясенево”</h1>
-          <img class="hero__image" src="assets/images/Mask group.png" alt="Бизнес квартал">
-          <div class="hero__parametrs">
+          <div class="hero__parametrs hero__parametrs_large">
             <div class="hero__parametrs__item">
               <span><strong>1 мин</strong></span>
               <span>пешком от метро</span>
@@ -45,6 +49,13 @@
               <span>первая очередь</span>
             </div>
           </div>
+          <img class="hero__image" src="assets/images/Mask group.png" alt="Бизнес квартал">
+          <nav>
+            <ul class="nav hero-nav">
+              <li class="nav__item nav__item_button"><a href="location.html">Расположение</a></li>
+              <li class="nav__item nav__item_button"><a href="plans.html">Планировки</a></li>
+            </ul>
+          </nav>
         </section>
         <section class="pdf">
           <h2 class="pdf__title">Вся информация о проекте — в презентации</h2>
