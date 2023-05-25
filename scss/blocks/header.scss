@@ -23,11 +23,13 @@
       padding: 14px 32px;
       background: $PrimaryBlue100;
     }
-  &__image {
+    &__image {
       display: none;
     }
   }
 }
+
+
 @media screen and (max-width: 1279px) and (min-width: 768px) {
   .header {
     &__logo {
